@@ -1,56 +1,16 @@
 template:
-    # url: https://github.com/CouscousPHP/Template-Basic
-    url: https://github.com/moqmar/mintlook-couscous
+  url: https://github.com/CouscousPHP/Template-Basic
 
 # Base URL of the published website
 # baseUrl: https://jhclarke.github.io
-baseUrl: http://jhclarke.github.io/project
+# baseUrl: http://jhclarke.github.io/project
 
 # List of directories to include in the processing (by default it's empty, so all markdown files are parsed)
 # Paths are relative to the optional source path given when generating the website, repository root by default
-include:
-    - Projects
-    - Documentation
-
-branch: main
+# include:
+#     - Projects
+#     - Documentation
 
 # Website title
 title: James Clarke
 
-
-title: Couscous # Page Title
-logo: https://cdn0.iconfinder.com/data/icons/ie_Shine/128/shine_19.png # Icon URL
-color: "#d21"   # Accent color
-
-languages: ["en", "de"] # List of supported languages. Comment out to disable language selection.
-defaultLanguage: world  # Default language icon, and the value of the html lang attribute. It is recommended to set this even (especially) if you're not using language selection.
-
-search: true # Enable search
-scripts:
-    after:
-        - php .couscous/generated/.scripts/generate-search-index.php # Required for search
-        - rm -rf .couscous/generated/.scripts # Clean up unneccessary files
-
-sidebar:
-    - title: About mintlook
-    - subtitle: Links
-    - text: Homepage
-      link: https://moqmar.github.io/mintlook # absolute link
-    - text: Mintlook and Couscous
-      page: / # relative link
-    - line: true
-    - html: |
-            <p>Follow us on <a href="">Facebook</a>, <a href="">Twitter</a>, and other <a href="">social networks</a>.</p>
-# you can also define the sidebar per language
-sidebar:
-  de:
-    - title: Über mintlook
-  default: # fallback for all other languages
-    - title: About mintlook
-
-footer: |
-    Hello <strong>World</strong>
-# you can also define the footer per language
-footer: # fallback for all other languages
-  de: Hallo <strong>Welt</strong>
-  default: Hello <strong>World</strong>
