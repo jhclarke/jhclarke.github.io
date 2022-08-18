@@ -1,0 +1,8 @@
+template:
+    url: https://github.com/CouscousPHP/Template-Basic
+
+# Base URL of the published website
+# baseUrl: http://username.github.io/project
+
+# Website title
+title: James Clarke
