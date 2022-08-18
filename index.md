@@ -1,14 +1,17 @@
 ---
 layout: home
+slug: "" 
 profile_picture:
-  src: /assets/img/profile-pic.jpg
-  alt: website picture
+  src: /assets/img/james.png
 ---
+PhD Candidate in Physics at UT Austin
+- Part of the [Center for Nonlinear Dynamics](https://www.chaos.utexas.edu)
+- Part of the [Center for Dynamics and Control of Materials: an NSF MRSEC](https://mrsec.utexas.edu/profiles/james-clarke)
 
-<p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
-</p>
+Chief Scientific Officer at [Longhorn Life Sciences](https://longhornlifesciences.com)  
 
-<p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
-</p>
+---
+Applied Physics MSc, University of Oregon  
+Physics BS, Trinity University  
+
+
