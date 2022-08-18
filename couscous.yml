@@ -2,7 +2,15 @@ template:
     url: https://github.com/CouscousPHP/Template-Basic
 
 # Base URL of the published website
-baseUrl: https://www.jhclarke.com
+baseUrl: https://jhclarke.github.io
+
+# List of directories to include in the processing (by default it's empty, so all markdown files are parsed)
+# Paths are relative to the optional source path given when generating the website, repository root by default
+include:
+    - Projects
+    - Documentation
+
+branch: main
 
 # Website title
 title: James Clarke
