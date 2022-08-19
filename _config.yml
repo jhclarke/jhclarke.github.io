@@ -18,8 +18,8 @@ footer:
   show_powered_by: false
   contact:
     - name: Email
-      value: \[em spelled backwards]@jhclarke.com
-      link: mailto:[em spelled backwards]@jhclarke.com
+      value: Email
+      link: mailto:me@jhclarke.com
   follow:
     - name: LinkedIn
       link: https://linkedin.com/in/james-h-clarke-v/
