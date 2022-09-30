@@ -1,8 +1,9 @@
 ---
 layout: notes
 title: Notes
-slug: /blog
+slug: /notes
 ---
 
-This is an example of the notes page, displaying a list of all notes
+Over the years I've documented various processes and projects that I've done in my personal life, which I've decided to share here. The goal of sharing them here is (besides forcing me to build some level of coherency and completeness in the documents themselves) that it will benefit the occasional reader who stumbles into this area of my site.
+
 <br />

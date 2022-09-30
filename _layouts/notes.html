@@ -7,13 +7,13 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="blog">
+        <div class="note">
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
 
-          <p class="blog-post-list">
-            {% for post in site.posts %}
-
+          <p class="note-post-list">
+            {% for post in site.posts %}	    
+	      {% if post.type == "note" %}
               {% if post.draft != true %}
                 <!-- <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span> -->
                 <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="blog-post-title">
@@ -21,6 +21,7 @@
                 </a>
                 <br />
 
+              {% endif %}
               {% endif %}
 
             {% endfor %}

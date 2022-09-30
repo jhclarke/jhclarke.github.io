@@ -11,8 +11,8 @@ google_analytics: "UA-121636368-3"
 header:
   pages:
     # - name: Work
-    # - name: Notes
-    # - name: Blog
+    - name: Notes
+    - name: Blog
 
 footer:
   show_powered_by: false
