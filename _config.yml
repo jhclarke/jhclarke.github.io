@@ -13,9 +13,11 @@ header:
     # - name: Work
     # - name: Notes
     # - name: Blog
+    - name: Photography
 
 footer:
   show_powered_by: false
+  show_copyright: true
   contact:
     - name: Email
       value: Email 

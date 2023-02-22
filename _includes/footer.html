@@ -58,8 +58,15 @@
           </p>
         </div>
       {% endif %}
+      {% if site.footer.show_copyright == true %}
+        <!-- <div class="footer-col footer-col-3 powered-by"> -->
+        <div class="footer-col">
+          <p>© James H. Clarke, 2023. The materials on this website may be copied for noncommercial personal use only. The materials on this website may not be reproduced in print or any other media without written permission.
+	  </p>
+        </div>
+      {% endif %}
+
     </div>
   </div>
 </footer>
-
 <!-- {% include wechat-widget.html %} -->
