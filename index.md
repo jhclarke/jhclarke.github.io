@@ -2,7 +2,7 @@
 layout: home
 slug: "" 
 profile_picture:
-  src: /assets/img/james.png
+  src: /assets/img/vw_headshot_james_03.jpg
 ---
 
 *Studying life, the art of the universe - where spirit emerges from artistic design.*
