@@ -4,6 +4,7 @@ source "https://rubygems.org"
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
 #     bundle exec jekyll serve
+require 'json'
 gem "jekyll", "~> 4.0.0"
 
 # Plugins
