@@ -6,17 +6,33 @@ slug: /cv
 
 # Curriculum Vitae 
 ---
-# Education & Research 
-**Ph.D. in Physics** (In Progress) - The University of Texas at Austin, Austin, TX (08/2019 - Present)  
-**M.S. in Applied Physics** - University of Oregon, Eugene, OR (06/2017 - 09/2018)  
-**B.S. in Physics** - Trinity University San Antonio, TX (08/2013 - 05/2017)  
+# Education & Research
+
+**Ph.D. in Physics**   
+The University of Texas at Austin, Austin, TX (08/2019 - Present)  
+
+**M.S. in Applied Physics**  
+University of Oregon, Eugene, OR (06/2017 - 09/2018)  
+
+**B.S. in Physics**  
+Trinity University San Antonio, TX (08/2013 - 05/2017)  
 
 # Professional Experience 
-**Co-founder & Chief Scientific Officer** - Longhorn Life Sciences Inc., Austin, TX, USA. (2021 - Present)  
-**Graduate Research Assistant** - The University of Texas at Austin, Advised by José Alvarado, Austin, TX, USA. (2019 - Present)  
-**Engineer II Applications Development** - Thermo Fisher Scientific, Hillsboro, OR, USA. (2018 - 2019)  
-**Graduate Research Assistant** - University of Oregon, Advised by George Nazin, Eugene, OR, USA. (2017-2018)  
-**Undergraduate Research Assistant** - Trinity University, Advised by Kelvin Cheng, San Antonio, TX, USA. (2015-2017)  
+
+**Co-founder & Chief Scientific Officer**  
+Longhorn Life Sciences Inc., Austin, TX, USA. (2021 - Present)  
+
+**Graduate Research Assistant**  
+The University of Texas at Austin, Advised by José Alvarado, Austin, TX, USA. (2019 - Present)  
+
+**Engineer II Applications Development**  
+Thermo Fisher Scientific, Hillsboro, OR, USA. (2018 - 2019)  
+
+**Graduate Research Assistant**  
+University of Oregon, Advised by George Nazin, Eugene, OR, USA. (2017-2018)  
+
+**Undergraduate Research Assistant**  
+Trinity University, Advised by Kelvin Cheng, San Antonio, TX, USA. (2015-2017)  
 
 # Honors, Grants, and Awards 
 - T.T. & W.F. Chao "Chairman's" Award (\$20k), Texas Business Hall of Fame (2023)
