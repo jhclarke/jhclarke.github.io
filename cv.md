@@ -53,7 +53,7 @@ Trinity University, Advised by Kelvin Cheng, San Antonio, TX, USA. (2015-2017)
 - M Ledoux, J Clarke, B Avedisian, C Rue, U Adiga, M Biedrzycki. "Gas enhanced PFIB surface preparation enabled metrology and statistical analysis of 3D NAND devices", Proceedings of the SPIE, Advanced Lithography, (San Jose, CA, Feb 26 2019)
 
 ### Research Articles 
-- J Clarke, F Cavanna, AD Crowell, JR Houser, K Graham, A Green, JC Stachowiak, TM Truskett, DJ Milliron, AM Rosales, J Alvarado. Morphological Control of Bundled Actin Networks Subject to Fixed Mass Depletion. Under review (arxiv preprint) (2023)
+- J Clarke, L Melcher, AD Crowell, F Cavanna, JR Houser, K Graham, AM Green, JC Stachowiak, TM Truskett, DJ Milliron, AM Rosales, M Das, J Alvarado; Morphological control of bundled actin networks subject to fixed-mass depletion. J. Chem. Phys. 14 August 2024; 161 (7): 074905. https://doi.org/10.1063/5.0197269
 
 ## Patents 
 - Perimeter trench formation and delineation etch delayering (US Patent No. US 11,257,683 B2). Washington, DC: U.S. Patent and Trademark Office (2022) 
