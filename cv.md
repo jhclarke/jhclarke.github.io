@@ -9,7 +9,7 @@ slug: /cv
 # Education & Research
 
 **Ph.D. in Physics**   
-The University of Texas at Austin, Austin, TX (08/2019 - Present)  
+The University of Texas at Austin, Austin, TX (08/2019 - 2024)  
 
 **M.S. in Applied Physics**  
 University of Oregon, Eugene, OR (06/2017 - 09/2018)  
@@ -23,7 +23,7 @@ Trinity University San Antonio, TX (08/2013 - 05/2017)
 Longhorn Life Sciences Inc., Austin, TX, USA. (2021 - Present)  
 
 **Graduate Research Assistant**  
-The University of Texas at Austin, Advised by José Alvarado, Austin, TX, USA. (2019 - Present)  
+The University of Texas at Austin, Advised by José Alvarado, Austin, TX, USA. (2019 - 2024)  
 
 **Engineer II Applications Development**  
 Thermo Fisher Scientific, Hillsboro, OR, USA. (2018 - 2019)  
@@ -54,6 +54,7 @@ Trinity University, Advised by Kelvin Cheng, San Antonio, TX, USA. (2015-2017)
 
 ### Research Articles 
 - J Clarke, L Melcher, AD Crowell, F Cavanna, JR Houser, K Graham, AM Green, JC Stachowiak, TM Truskett, DJ Milliron, AM Rosales, M Das, J Alvarado; Morphological control of bundled actin networks subject to fixed-mass depletion. J. Chem. Phys. 14 August 2024; 161 (7): 074905. https://doi.org/10.1063/5.0197269
+- J Clarke*, F Cavanna*, A Marne, A Davolio, J Alvarado; Nonlinear contractile response of actomyosin active gels to control signals. \emph{Submitted}
 
 ## Patents 
 - Perimeter trench formation and delineation etch delayering (US Patent No. US 11,257,683 B2). Washington, DC: U.S. Patent and Trademark Office (2022) 
