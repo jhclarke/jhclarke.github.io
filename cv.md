@@ -9,7 +9,7 @@ slug: /cv
 # Education & Research
 
 **Ph.D. in Physics**   
-The University of Texas at Austin, Austin, TX (08/2019 - 2024)  
+The University of Texas at Austin, Austin, TX (08/2019 - 12/2024)  
 
 **M.S. in Applied Physics**  
 University of Oregon, Eugene, OR (06/2017 - 09/2018)  
