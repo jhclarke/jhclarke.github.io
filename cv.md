@@ -19,7 +19,7 @@ Trinity University San Antonio, TX (08/2013 - 05/2017)
 
 # Professional Experience 
 
-**Postdoctoral Fellow**
+**Postdoctoral Fellow**  
 The University of Texas at Austin, Austin, TX, USA. (01/2024 - Present)
 
 **Co-founder & Chief Scientific Officer**  
