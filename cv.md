@@ -34,7 +34,8 @@ University of Oregon, Advised by George Nazin, Eugene, OR, USA. (2017-2018)
 **Undergraduate Research Assistant**  
 Trinity University, Advised by Kelvin Cheng, San Antonio, TX, USA. (2015-2017)  
 
-# Honors, Grants, and Awards 
+# Honors, Grants, and Awards
+- Texas Champion (\$15k); UT Austin Texas Venture Labs Investment Competition (2024)
 - T.T. & W.F. Chao "Chairman's" Award (\$20k), Texas Business Hall of Fame (2023)
 - Texas Proof of Concept Award (\$25k), UT Austin (2023) 
 - Professional Development Award (\$1k), UT Austin Physics (2023) 
@@ -54,7 +55,12 @@ Trinity University, Advised by Kelvin Cheng, San Antonio, TX, USA. (2015-2017)
 
 ### Research Articles 
 - J Clarke, L Melcher, AD Crowell, F Cavanna, JR Houser, K Graham, AM Green, JC Stachowiak, TM Truskett, DJ Milliron, AM Rosales, M Das, J Alvarado; Morphological control of bundled actin networks subject to fixed-mass depletion. J. Chem. Phys. 14 August 2024; 161 (7): 074905. https://doi.org/10.1063/5.0197269
-- J Clarke*, F Cavanna*, A Marne, A Davolio, J Alvarado; Nonlinear contractile response of actomyosin active gels to control signals. \emph{Submitted}
+- J Clarke*, F Cavanna*, A Marne, A Davolio, J Alvarado; Nonlinear contractile response of actomyosin active gels to control signals. (Submitted)
+- J Clakre, A Marne, H Lee, K Wong, J Alvarado. Non-affinities in pinned actomyosin contraction. (In Preparation)
+- J Clarke, J Alvarado. Perspective: The interplay between Control Theory and Biology. (In Preparation)
+- J Alvarado, J Clarke, G Koenderink. Critical slowing dynamics of contractile actomyosin gels. (In Preparation)
+
+
 
 ## Patents 
 - Perimeter trench formation and delineation etch delayering (US Patent No. US 11,257,683 B2). Washington, DC: U.S. Patent and Trademark Office (2022) 
