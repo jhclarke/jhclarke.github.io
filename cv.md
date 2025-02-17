@@ -58,9 +58,9 @@ Trinity University, Advised by Kelvin Cheng, San Antonio, TX, USA. (2015-2017)
 
 ### Research Articles 
 - J Clarke, L Melcher, AD Crowell, F Cavanna, JR Houser, K Graham, AM Green, JC Stachowiak, TM Truskett, DJ Milliron, AM Rosales, M Das, J Alvarado; Morphological control of bundled actin networks subject to fixed-mass depletion. J. Chem. Phys. 14 August 2024; 161 (7): 074905. https://doi.org/10.1063/5.0197269
-- J Clarke*, F Cavanna*, A Marne, A Davolio, J Alvarado; Nonlinear contractile response of actomyosin active gels to control signals. (Submitted)
-- J Clakre, A Marne, H Lee, K Wong, J Alvarado. Non-affinities in pinned actomyosin contraction. (In Preparation)
-- J Clarke, J Alvarado. Perspective: The interplay between Control Theory and Biology. (In Preparation)
+- J Clarke*, F Cavanna*, A Marne, A Davolio, J Alvarado; Nonlinear contractile response of actomyosin active gels to control signals. (Under review)
+- J Clakre, A Marne, H Lee, K Wong, J Alvarado. Stress relaxation in pinned actomyosin contraction. (In Preparation)
+- J Clarke, J McGrath, J Alvarado. Perspective: The interplay between Control Theory and Biology. (In Preparation)
 - J Alvarado, J Clarke, G Koenderink. Critical slowing dynamics of contractile actomyosin gels. (In Preparation)
 
 
@@ -102,13 +102,14 @@ Devices and Methods (206161-0047-P1US). Provisional (2023)
 - PhD Emma Hunt, UT. Project: Pulsatile Actomyosin. (2022) 
 - PhD Ram Sudha, UT. Project: Simulating light sheet interactions with an actin network. (2020)
 
-## Undergraduate Students Advised 
-- James Lee, UT. Project: Measuring actomyosin forces. (2024-Present) 
-- Archita Duvvada, UT. Project: Microneedle development for a wound monitoring device. (2024 - Present) 
+## Undergraduate Students Advised  
+- James Lee, UT. Project: Measuring actomyosin forces. (2024-Present)
+- Kyla Wong, UT. Project: Comparing free and pinned contraction in actomyosin gels. (2024-Present)
+- Archita Duvvada, UT. Project: Microneedle development for a wound monitoring device. (2024-Present) 
 - John Zhang, UT. Project: Simulating microfluidic flow for a wound monitoring device. (2021-2022) 
 - Omar Cantu, UT. Project: In vitro sarcomere. (2021-2022)
 
-# Teaching and Public Outreach 
+# Teaching and Public Outreach  
 - Speaker, Particle Pints May Event, Darwin's Pub, Austin, USA (2023) 
 - Volunteer, UT Austin Engineering Day, Austin, USA (2023) 
 - Teaching Assistant, Waves Laboratory, UT Austin, Austin, USA (2019-2021) 
