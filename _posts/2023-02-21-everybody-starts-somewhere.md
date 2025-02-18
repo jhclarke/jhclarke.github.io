@@ -5,7 +5,7 @@ date:   2022-02-21 19:05:00
 blurb: "First foray into the world of film photography."
 og_image: /assets/img/photography/yashica_electro_35/fujifilm/fujicolor_200/images/IMG_2353.jpg
 type: "photography"
-draft: false
+draft: true
 ---
 
 James Clarke  
