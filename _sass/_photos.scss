@@ -1,0 +1,44 @@
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 800px;
+  margin: auto;
+  
+}
+.photo-gallery {
+    columns: 3 220px;
+    column-gap: 5px;
+
+    img {
+        width: 100%;
+        margin-bottom: 5px;
+        break-inside: avoid; // Keeps images from breaking awkwardly
+    }
+}
+
+.photo-item {
+    width: 100%;
+    height: 100%;
+}
+
+.photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Horizontal images (default size) */
+.photo-item.horizontal {
+    aspect-ratio: 3 / 2;
+}
+
+/* Vertical images (double height) */
+.photo-item.vertical {
+    aspect-ratio: 2 / 3;
+    grid-row: span 2;
+}
+
+.footer-spacer {
+    height: 400px;  /* Add whatever vertical gap you want */
+}

@@ -4,7 +4,7 @@ title: CV
 slug: /cv
 ---
 
-# Curriculum Vitae 
+# James Clarke, Ph.D. - Curriculum Vitae 
 ---
 # Education & Research
 

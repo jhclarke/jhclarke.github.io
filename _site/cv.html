@@ -1,3 +1,4 @@
+<!-- Update your _layouts/cv.html file with this improved header handling -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -65,7 +66,6 @@
 
 </head>
 
-
   <body>
     <header class="site-header">
   <div class="wrapper">
@@ -95,10 +95,19 @@
   </div>
 </header>
 
-
     <div class="page-content">
       <div class="wrapper">
-        <h1 id="curriculum-vitae">Curriculum Vitae</h1>
+        <!-- Download Button added directly to the layout -->
+        <div class="download-button-container">
+          <button id="generatePdfBtn" class="download-btn">Download PDF</button>
+          <span id="pdfStatus" style="display: none; margin-left: 10px; font-size: 14px; color: #555;">
+            Generating PDF...
+          </span>
+        </div>
+        
+        <!-- CV content container -->
+        <div id="cv-content">
+          <h1 id="james-clarke-phd---curriculum-vitae">James Clarke, Ph.D. - Curriculum Vitae</h1>
 <hr />
 <h1 id="education--research">Education &amp; Research</h1>
 
@@ -231,9 +240,9 @@ Devices and Methods (206161-0047-P1US). Provisional (2023)</li>
 
 <p><br /></p>
 
+        </div>
       </div>
     </div>
-
     <footer class="site-footer">
   <div class="wrapper">
     <div class="footer-col-wrapper">
@@ -317,7 +326,7 @@ Devices and Methods (206161-0047-P1US). Provisional (2023)</li>
       
         <!-- <div class="footer-col footer-col-3 powered-by"> -->
         <div class="footer-col">
-          <p>© James H. Clarke, 2024. The materials on this website may be copied for noncommercial personal use only. The materials on this website may not be reproduced in print or any other media without written permission.
+          <p>© James H. Clarke, 2025. The materials on this website may be copied for noncommercial personal use only. The materials on this website may not be reproduced in print or any other media without written permission.
 	  </p>
         </div>
       
@@ -336,5 +345,363 @@ Devices and Methods (206161-0047-P1US). Provisional (2023)</li>
     <script type="text/javascript" src="http://localhost:4000/assets/js/vendor/cash-4.1.5.min.js"></script>
 <script type="text/javascript" src="http://localhost:4000/assets/js/site.js"></script>
 
+    
+    <!-- Basic styling -->
+    <style>
+      .download-button-container {
+        text-align: right;
+        margin: -10px 0;
+      }
+      
+      .download-btn {
+        display: inline-block;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        margin: 10px 0;
+        cursor: pointer;
+        border-radius: 4px;
+        border: none;
+      }
+      
+      .download-btn:hover {
+        background-color: #45a049;
+      }
+    </style>
+    
+    <!-- PDF generation library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    
+    <!-- Template-based PDF generation script with improved header handling -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('generatePdfBtn').addEventListener('click', function() {
+          // Show status
+          const statusElem = document.getElementById('pdfStatus');
+          statusElem.style.display = 'inline';
+          this.disabled = true;
+          
+          // Initialize jsPDF
+          const { jsPDF } = window.jspdf;
+          const pdf = new jsPDF({
+            orientation: 'portrait',
+            unit: 'mm',
+            format: 'a4'
+          });
+          
+          // Define page dimensions
+          const pageWidth = 210;  // A4 width in mm
+          const pageHeight = 297; // A4 height in mm
+          const margin = 20;      // Margin in mm
+          const contentWidth = pageWidth - (margin * 2);
+          
+          // Extract content from the DOM
+          const cvContent = document.getElementById('cv-content');
+          
+          // Function to get all direct children of a section
+          function getChildrenContent(element) {
+            const items = [];
+            Array.from(element.children).forEach(child => {
+              // Handle different types of elements
+              if (child.tagName === 'H1' || child.tagName === 'H2' || child.tagName === 'H3') {
+                items.push({ 
+                  type: 'heading', 
+                  level: parseInt(child.tagName.charAt(1)), 
+                  text: child.textContent 
+                });
+              } else if (child.tagName === 'P') {
+                items.push({ type: 'paragraph', text: child.textContent });
+              } else if (child.tagName === 'UL' || child.tagName === 'OL') {
+                const listItems = Array.from(child.getElementsByTagName('LI')).map(li => li.textContent);
+                items.push({ type: 'list', items: listItems });
+              } else if (child.tagName === 'DIV' || child.tagName === 'SECTION') {
+                // Recursively process nested sections
+                items.push(...getChildrenContent(child));
+              }
+            });
+            return items;
+          }
+          
+          // Get content in a structured format
+          const content = getChildrenContent(cvContent);
+          
+          // Process content to create section groups (H1 headers with their content)
+          function createSectionGroups(contentItems) {
+            const sections = [];
+            let currentSection = null;
+            
+            contentItems.forEach(item => {
+              if (item.type === 'heading' && item.level === 1) {
+                // Start a new section when we find an H1
+                if (currentSection !== null) {
+                  sections.push(currentSection);
+                }
+                currentSection = {
+                  header: item,
+                  content: []
+                };
+              } else if (currentSection !== null) {
+                // Add to current section
+                currentSection.content.push(item);
+              } else {
+                // If we have content before any H1, create a section without a header
+                if (sections.length === 0 || sections[sections.length - 1].header !== null) {
+                  currentSection = {
+                    header: null,
+                    content: []
+                  };
+                  sections.push(currentSection);
+                }
+                sections[sections.length - 1].content.push(item);
+              }
+            });
+            
+            // Add the last section if it exists
+            if (currentSection !== null) {
+              sections.push(currentSection);
+            }
+            
+            return sections;
+          }
+          
+          // Group content into sections
+          const sections = createSectionGroups(content);
+          
+          // Define styles for the PDF
+          const styles = {
+            heading1: { fontSize: 16, bold: true, marginBottom: 5, marginTop: 10 },
+            heading2: { fontSize: 14, bold: true, marginBottom: 4, marginTop: 8 },
+            heading3: { fontSize: 12, bold: true, marginBottom: 3, marginTop: 6 },
+            paragraph: { fontSize: 10, marginBottom: 4 },
+            list: { fontSize: 10, marginBottom: 2, indentSize: 5 }
+          };
+          
+          // Function to add text with line breaks
+          function addWrappedText(text, x, y, options = {}) {
+            const fontSize = options.fontSize || 10;
+            const lineHeight = fontSize * 0.35; // Adjust as needed
+            
+            // Set font options
+            pdf.setFontSize(fontSize);
+            if (options.bold) {
+              pdf.setFont('helvetica', 'bold');
+            } else {
+              pdf.setFont('helvetica', 'normal');
+            }
+            
+            // Split text into lines based on available width
+            const lines = pdf.splitTextToSize(text, contentWidth - (options.indent || 0));
+            
+            // Draw each line
+            lines.forEach((line, index) => {
+              pdf.text(line, x + (options.indent || 0), y + (index * lineHeight));
+            });
+            
+            // Return the new Y position
+            return y + (lines.length * lineHeight) + (options.marginBottom || 0);
+          }
+          
+          // Function to estimate content height
+          function estimateContentHeight(item) {
+            // Set font options for estimation
+            let fontSize = 10; // Default
+            let extraSpace = 0;
+            
+            if (item.type === 'heading') {
+              const headingStyle = styles[`heading${item.level}`] || styles.heading3;
+              fontSize = headingStyle.fontSize;
+              extraSpace = headingStyle.marginTop + headingStyle.marginBottom;
+            } else if (item.type === 'paragraph') {
+              fontSize = styles.paragraph.fontSize;
+              extraSpace = styles.paragraph.marginBottom;
+            } else if (item.type === 'list') {
+              fontSize = styles.list.fontSize;
+              extraSpace = styles.list.marginBottom * item.items.length;
+            }
+            
+            const lineHeight = fontSize * 0.35;
+            
+            if (item.type === 'heading' || item.type === 'paragraph') {
+              const tempSize = pdf.getStringUnitWidth(item.text) * fontSize / pdf.internal.scaleFactor;
+              const lines = Math.ceil(tempSize / contentWidth);
+              return (lines * lineHeight) + extraSpace;
+            } else if (item.type === 'list') {
+              let totalHeight = 0;
+              item.items.forEach(text => {
+                const tempSize = pdf.getStringUnitWidth(text) * fontSize / pdf.internal.scaleFactor;
+                const lines = Math.ceil(tempSize / (contentWidth - styles.list.indentSize - 3));
+                totalHeight += (lines * lineHeight) + styles.list.marginBottom;
+              });
+              return totalHeight;
+            }
+            
+            return 0; // Default case
+          }
+          
+          // Function to estimate section height
+          function estimateSectionHeight(section) {
+            let height = 0;
+            
+            // Add header height if present
+            if (section.header) {
+              height += estimateContentHeight(section.header);
+            }
+            
+            // Add content heights
+            section.content.forEach(item => {
+              height += estimateContentHeight(item);
+            });
+            
+            return height;
+          }
+          
+          // Start drawing the PDF content
+          let y = margin;
+          let currentPage = 1;
+          
+          // Function to check if we need a new page
+          function checkForNewPage(requiredSpace) {
+            if (y + requiredSpace > pageHeight - margin) {
+              pdf.addPage();
+              currentPage++;
+              y = margin;
+              return true;
+            }
+            return false;
+          }
+          
+          // Process each section
+          sections.forEach(section => {
+            // Calculate total section height
+            const sectionHeight = estimateSectionHeight(section);
+            
+            // If this is an H1 section and it won't fit entirely on the current page,
+            // AND we're not at the top of a page already, start a new page
+            if (section.header && section.header.level === 1) {
+              // Get just the header height
+              const headerHeight = estimateContentHeight(section.header);
+              
+              // Get height of first few content items (to ensure at least some content stays with header)
+              let initialContentHeight = 0;
+              // Get height of either first item or first two items if they're small
+              if (section.content.length > 0) {
+                initialContentHeight += estimateContentHeight(section.content[0]);
+                
+                // If first item is small and there's a second item, include it too
+                if (section.content.length > 1 && initialContentHeight < 15) {
+                  initialContentHeight += estimateContentHeight(section.content[1]);
+                }
+              }
+              
+              // Minimum content to keep with header
+              const minContentWithHeader = Math.min(initialContentHeight, 20); // At least some content, max 20mm
+              
+              // Check if header + min content would fit, and we're not at top of page
+              if (y > margin + 5 && (y + headerHeight + minContentWithHeader > pageHeight - margin)) {
+                pdf.addPage();
+                currentPage++;
+                y = margin;
+              }
+            }
+            
+            // Process header if present
+            if (section.header) {
+              const headingStyle = styles[`heading${section.header.level}`] || styles.heading3;
+              
+              y += headingStyle.marginTop;
+              y = addWrappedText(section.header.text, margin, y, {
+                fontSize: headingStyle.fontSize,
+                bold: headingStyle.bold,
+                marginBottom: headingStyle.marginBottom
+              });
+            }
+            
+            // Process section content
+            section.content.forEach(item => {
+              switch (item.type) {
+                case 'heading':
+                  const headingStyle = styles[`heading${item.level}`] || styles.heading3;
+                  
+                  // Check if heading needs a new page
+                  const headingHeight = estimateContentHeight(item);
+                  
+                  // For H2 and H3, also try to keep some content with the header
+                  if (item.level === 2 || item.level === 3) {
+                    // We need more space to keep some content with heading
+                    const minSpaceNeeded = headingHeight + 10; // Header + some content
+                    if (y + minSpaceNeeded > pageHeight - margin) {
+                      pdf.addPage();
+                      currentPage++;
+                      y = margin;
+                    }
+                  } else {
+                    checkForNewPage(headingHeight);
+                  }
+                  
+                  y += headingStyle.marginTop;
+                  y = addWrappedText(item.text, margin, y, {
+                    fontSize: headingStyle.fontSize,
+                    bold: headingStyle.bold,
+                    marginBottom: headingStyle.marginBottom
+                  });
+                  break;
+                  
+                case 'paragraph':
+                  // Check if paragraph needs a new page
+                  const paragraphHeight = estimateContentHeight(item);
+                  
+                  if (checkForNewPage(paragraphHeight)) {
+                    // If we added a new page, reset y to top margin
+                    y = margin;
+                  }
+                  
+                  // Add paragraph
+                  y = addWrappedText(item.text, margin, y, {
+                    fontSize: styles.paragraph.fontSize,
+                    marginBottom: styles.paragraph.marginBottom
+                  });
+                  break;
+                  
+                case 'list':
+                  // Process each list item
+                  item.items.forEach((text, index) => {
+                    // Check if list item needs a new page
+                    const listItemHeight = (styles.list.fontSize * 0.35) * 
+                      pdf.splitTextToSize(text, contentWidth - styles.list.indentSize - 3).length + 
+                      styles.list.marginBottom;
+                      
+                    if (checkForNewPage(listItemHeight)) {
+                      // If we added a new page, reset y to top margin
+                      y = margin;
+                    }
+                    
+                    // Add bullet point
+                    pdf.setFontSize(styles.list.fontSize);
+                    pdf.text('•', margin + 2, y);
+                    
+                    // Add list item text
+                    y = addWrappedText(text, margin, y, {
+                      fontSize: styles.list.fontSize,
+                      marginBottom: styles.list.marginBottom,
+                      indent: styles.list.indentSize
+                    });
+                  });
+                  break;
+              }
+            });
+          });
+          
+          // Save PDF
+          pdf.save('cv.pdf');
+          
+          // Reset button state
+          statusElem.style.display = 'none';
+          this.disabled = false;
+        });
+      });
+    </script>
   </body>
 </html>
