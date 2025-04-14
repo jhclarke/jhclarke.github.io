@@ -9,28 +9,32 @@
       <div class="wrapper">
         <div class="note">
           <h1 class="page-heading">{{ page.title }}</h1>
-          {{ content }} 
-		<div class="photo-gallery">
-		  {% for image in site.static_files %}
-		    {% if image.path contains 'assets/img/photography/' %}
-		      {% assign filename = image.path | split: '/' | last %}
-		      {% if filename contains 'vertical' %}
-			{% assign orientation = 'vertical' %}
-		      {% else %}
-			{% assign orientation = 'horizontal' %}
-		      {% endif %}
+          {{ content }}
 
-		      <div class="photo-item {{ orientation }}">
-			<img src="{{ site.baseurl }}{{ image.path }}" alt="Photo">
-		      </div>
-		    {% endif %}
-		  {% endfor %}
+          <p class="note-post-list">
+            {% for post in site.posts %}	    
+	      {% if post.type == "photography" %}
+              {% if post.draft != true %}
+                <!-- <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span> -->
+                |	
+                <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="blog-post-title">
+			~ {{ post.title }} ~
+		</a>
+		|
+                <img class="photo-img" src={{post.og_image}} width="250" height="250" >
+		</img>
+                <br />
 
-		</div>
-		<div class="footer-spacer"></div>
+              {% endif %}
+              {% endif %}
+
+            {% endfor %}
+          </p>
         </div>
       </div>
+
     </div>
+    <!-- {% include foot.html %} -->
   </body>
-    {% include footer.html %}
+  {% include footer.html %}
 </html>
