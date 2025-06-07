@@ -40,14 +40,14 @@
   <meta property="og:url" content="http://localhost:4000/photography.md.on_hold_new_layout"/>
   <meta property="og:title" content="James Clarke | Photography"/>
   <meta property="og:description" content="baseurl: "" # the subpath of the site"/>
-  <meta property="og:image" content="http://localhost:4000/assets/img/vw_headshot_james_01.jpg"/>
+  <meta property="og:image" content="http://localhost:4000/assets/img/headshot_pdx.jpg"/>
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image"/>
   <meta property="twitter:url" content="http://localhost:4000/photography.md.on_hold_new_layout"/>
   <meta property="twitter:title" content="James Clarke | Photography"/>
   <meta property="twitter:description" content="baseurl: "" # the subpath of the site"/>
-  <meta property="twitter:image" content="http://localhost:4000/assets/img/vw_headshot_james_01.jpg"/>
+  <meta property="twitter:image" content="http://localhost:4000/assets/img/headshot_pdx.jpg"/>
   
 
   <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css"/>
@@ -102,6 +102,8 @@
           <h1 class="page-heading">Photography</h1>
           A running collection of captures from my photography adventures.
 <!-- <div class="photo-gallery"> -->
+<!--    -->
+<!--      -->
 <!--    -->
 <!--      -->
 <!--    -->

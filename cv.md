@@ -20,7 +20,7 @@ Trinity University San Antonio, TX (08/2013 - 05/2017)
 # Professional Experience 
 
 **Postdoctoral Fellow**  
-The University of Texas at Austin, Austin, TX, USA. (01/2024 - Present)
+The University of Texas at Austin, Austin, TX, USA. (01/2025 - 06/2025)
 
 **Co-founder & Chief Scientific Officer**  
 Longhorn Life Sciences Inc., Austin, TX, USA. (2021 - Present)  
@@ -59,19 +59,18 @@ Trinity University, Advised by Kelvin Cheng, San Antonio, TX, USA. (2015-2017)
 ### Research Articles 
 - J Clarke, L Melcher, AD Crowell, F Cavanna, JR Houser, K Graham, AM Green, JC Stachowiak, TM Truskett, DJ Milliron, AM Rosales, M Das, J Alvarado; Morphological control of bundled actin networks subject to fixed-mass depletion. J. Chem. Phys. 14 August 2024; 161 (7): 074905. https://doi.org/10.1063/5.0197269
 - J Clarke*, F Cavanna*, A Marne, A Davolio, J Alvarado; Nonlinear contractile response of actomyosin active gels to control signals. (Under review)
-- J Clakre, A Marne, H Lee, K Wong, J Alvarado. Stress relaxation in pinned actomyosin contraction. (In Preparation)
-- J Clarke, J McGrath, J Alvarado. Perspective: The interplay between Control Theory and Biology. (In Preparation)
-- J Alvarado, J Clarke, G Koenderink. Critical slowing dynamics of contractile actomyosin gels. (In Preparation)
+- J Clakre, A Marne*, A Karanam*, H Lee, K Wong, M Das, J Alvarado. Tensile stress build up, and relaxation in contractile actomyosin gels subject to boundary pinning. (In Preparation)
+- J Clarke, J McGrath, J Alvarado. Control Across Scales: Signals, Information, and Biological Mechanical Function. (In Preparation)
 
 
 
 ## Patents 
 - Perimeter trench formation and delineation etch delayering (US Patent No. US 11,257,683 B2). Washington, DC: U.S. Patent and Trademark Office (2022) 
 - Method and system for backside planar view lamella preparation (US Patent No. US 11,069,509 B1). Washington, DC: U.S. Patent and Trademark Office (2021) 
-- Microneedle Wound Monitoring Systems,
-Devices and Methods (206161-0047-P1US). Provisional (2023)
+- Microneedle Wound Monitoring Systems, Devices and Methods (206161-0047-P1US). Provisional (2023)
 
 ## Invited Talks 
+- Center for Advanced Molecular Detection, 59th MDW, (Virtual) (2025)
 - Center for Nonlinear Dynamics Group Meeting, Austin, TX, USA (2024) 
 - Center for Nonlinear Dynamics Group Meeting, Austin, TX, USA (2023) 
 - Trinity University Physics Seminar, San Antonio, TX, USA (2020)
@@ -86,6 +85,7 @@ Devices and Methods (206161-0047-P1US). Provisional (2023)
 - American Physical Society March Meeting, New Orleans, USA (2017)
 
 ## Posters 
+- Advanced Materials GRS/GRC, Ventura, USA (2025)
 - MRSEC Industry Day, Austin, USA (2024) 
 - MRSEC Industry Day, Austin, USA (2023)
 

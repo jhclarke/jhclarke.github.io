@@ -2,21 +2,20 @@
 layout: home
 slug: "" 
 profile_picture:
-  src: /assets/img/vw_headshot_james_03.jpg
+  src: /assets/img/headshot_pdx.jpg
 ---
 
-*Studying life, the art of the universe - where spirit emerges from artistic design.*
+*Finding the courage, dedication, and commitment to experience all I desire. To learn the languages, read the histories, write my thoughts, share my beliefs, make my music. To help push humanity forward, and explore science, art, life, community, culture, the world, the psyche, the transpersonal mystique.*  
+
+*To create, to build; to serve, to surrender.*
 
 ---
-
-Postdoctoral Fellow at UT Austin
-- Part of the [Alvarado Lab](https://alv.ac/alab.html) in the [Center for Nonlinear Dynamics](https://www.chaos.utexas.edu)
-- Part of the [Texas Innovation Center](https://texasinnovationcenter.utexas.edu/)
-
+\
 Co-founder \| Chief Scientific Officer at [Longhorn Life Sciences](https://longhornlifesciences.com)  
 
 ---
-Physics PhD, The University of Texas at Austin | [Alvarado Lab](https://alv.ac/alab.html)
+\
+Physics PhD, The University of Texas at Austin | [Alvarado Lab](https://alv.ac/alab.html)  
 Applied Physics MSc, University of Oregon  
 Physics BS, Trinity University  
 
