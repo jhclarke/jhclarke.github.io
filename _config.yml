@@ -7,14 +7,16 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://www.jhclarke.com" # the base hostname & protocol for the site
 og_image: /assets/img/headshot_pdx.jpg
 google_analytics: "UA-121636368-3"
+google_analytics_4: "G-QQGVV7Q0WE" # Add your GA4 Measurement ID here (format: G-XXXXXXXXXX)
 
 header:
   pages:
+    - name: Services
+    - name: Photography
     - name: CV
     # - name: Work
     # - name: Notes
     # - name: Blog
-    - name: Photography
 
 footer:
   show_powered_by: false
@@ -55,4 +57,4 @@ exclude:
   - vendor/ruby/
 
 # Used for defeating caching
-version: 1
+version: 3

@@ -1,10 +1,7 @@
 ---
-layout: photography
+layout: photography-gallery
 title: Photography
 slug: /photography
 ---
 
-<!-- A running collection of photo essays from my photography adventures. -->
-This area of the site is undergoing renovations. Stay tuned!
-
-<br />
+Welcome to my photography collection. These images capture moments from my travels and explorations, each telling its own story through light and composition.

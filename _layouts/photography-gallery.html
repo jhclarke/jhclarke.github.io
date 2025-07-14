@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <h1 class="page-heading">{{ page.title }}</h1>
+        {{ content }}
+        
+        <!-- Photography Gallery -->
+        <div class="photo-gallery" id="photo-gallery">
+          {% for photo in site.static_files %}
+            {% if photo.path contains "/assets/img/photography/" %}
+            {% if photo.extname == ".jpg" or photo.extname == ".JPG" or photo.extname == ".png" %}
+              {% assign orientation = "horizontal" %}
+              {% if photo.name contains "vertical" %}
+                {% assign orientation = "vertical" %}
+              {% endif %}
+              
+              <div class="photo-item {{ orientation }}" data-photo="{{ photo.path }}">
+                <img src="{{ photo.path }}" alt="Photography by James Clarke" loading="lazy">
+                <div class="photo-watermark"></div>
+              </div>
+            {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+      <span class="lightbox-close">&times;</span>
+      <div class="lightbox-image-container">
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-watermark"></div>
+      </div>
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+      <div class="lightbox-nav">
+        <span class="lightbox-prev">&#8249;</span>
+        <span class="lightbox-next">&#8250;</span>
+      </div>
+    </div>
+
+    {% include footer.html %}
+    {% include foot.html %}
+    {% include contact-modal.html %}
+
+    <script>
+      // Lightbox functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const gallery = document.getElementById('photo-gallery');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxCaption = document.getElementById('lightbox-caption');
+        const lightboxClose = document.querySelector('.lightbox-close');
+        const lightboxPrev = document.querySelector('.lightbox-prev');
+        const lightboxNext = document.querySelector('.lightbox-next');
+        
+        let currentPhotoIndex = 0;
+        const photos = Array.from(document.querySelectorAll('.photo-item'));
+        
+        // Prevent right-click and drag on all gallery images
+        const galleryImages = document.querySelectorAll('.photo-gallery img');
+        galleryImages.forEach(img => {
+          img.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            return false;
+          });
+          
+          img.addEventListener('dragstart', function(e) {
+            e.preventDefault();
+            return false;
+          });
+          
+          img.addEventListener('mousedown', function(e) {
+            if (e.button === 2) { // Right click
+              e.preventDefault();
+              return false;
+            }
+          });
+        });
+        
+        // Also prevent right-click on photo items themselves
+        photos.forEach(photo => {
+          photo.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            return false;
+          });
+        });
+        
+        // Open lightbox
+        photos.forEach((photo, index) => {
+          photo.addEventListener('click', function() {
+            currentPhotoIndex = index;
+            showPhoto(index);
+            lightbox.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+            
+            // Track in GA4 if available
+            if (typeof gtag !== 'undefined') {
+              gtag('event', 'photo_view', {
+                'photo_path': photo.dataset.photo
+              });
+            }
+          });
+        });
+        
+        // Show photo in lightbox
+        function showPhoto(index) {
+          const photo = photos[index];
+          const img = photo.querySelector('img');
+          lightboxImg.src = img.src;
+          lightboxImg.alt = img.alt;
+          
+          // Extract filename for caption (can be customized later)
+          const filename = img.src.split('/').pop().split('.')[0];
+          lightboxCaption.textContent = `Photo ${index + 1} of ${photos.length}`;
+        }
+        
+        // Prevent image download/drag
+        lightboxImg.addEventListener('dragstart', function(e) {
+          e.preventDefault();
+        });
+        
+        lightboxImg.addEventListener('contextmenu', function(e) {
+          e.preventDefault();
+        });
+        
+        // Also prevent right-click on the entire lightbox
+        lightbox.addEventListener('contextmenu', function(e) {
+          if (e.target.tagName === 'IMG') {
+            e.preventDefault();
+          }
+        });
+        
+        // Navigation
+        lightboxPrev.addEventListener('click', function() {
+          currentPhotoIndex = (currentPhotoIndex - 1 + photos.length) % photos.length;
+          showPhoto(currentPhotoIndex);
+        });
+        
+        lightboxNext.addEventListener('click', function() {
+          currentPhotoIndex = (currentPhotoIndex + 1) % photos.length;
+          showPhoto(currentPhotoIndex);
+        });
+        
+        // Close lightbox
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightbox.addEventListener('click', function(e) {
+          if (e.target === lightbox) {
+            closeLightbox();
+          }
+        });
+        
+        function closeLightbox() {
+          lightbox.style.display = 'none';
+          document.body.style.overflow = 'auto';
+        }
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+          if (lightbox.style.display === 'block') {
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowLeft') lightboxPrev.click();
+            if (e.key === 'ArrowRight') lightboxNext.click();
+          }
+        });
+        
+        // Lazy loading fallback for older browsers
+        if ('loading' in HTMLImageElement.prototype) {
+          // Native lazy loading supported
+        } else {
+          // Fallback for older browsers
+          const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+          const imageObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src || img.src;
+                imageObserver.unobserve(img);
+              }
+            });
+          });
+          
+          lazyImages.forEach(img => imageObserver.observe(img));
+        }
+      });
+    </script>
+  </body>
+</html>

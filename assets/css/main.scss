@@ -14,13 +14,31 @@ $base-line-height: 1.7;
 
 $spacing-unit: 30px;
 
-$text-color: #111;
-$background-color: #fdfdfd;
-$brand-color: #2a7ae2;
+// Brand Colors from brand_feel.md
+$leather-brown: #7A4F32;  // Core brand color (20%)
+$forest-green: #2C4B3F;   // Primary contrast (10%)
+$sage: #9DB2A2;           // Soft complement (7%)
+$bone: #ECE9E3;           // Neutral canvas (60%)
+$charcoal: #2B2B28;       // Functional text (3%)
 
+// Legacy color mappings for compatibility
+$text-color: $charcoal;
+$background-color: $bone;
+$brand-color: $leather-brown;
+
+// Additional utility colors
 $grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark: darken($grey-color, 25%);
+
+// Semantic color assignments
+$primary-color: $leather-brown;
+$secondary-color: $forest-green;
+$accent-color: $sage;
+$bg-color: $bone;
+$text-primary: $charcoal;
+$link-color: $forest-green;
+$link-hover-color: darken($forest-green, 10%);
 
 $on-mobile: 500px;
 $on-laptop: 800px;
@@ -32,4 +50,4 @@ $on-laptop: 800px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "base", "layout", "site", "work", "blog", "post", "404", "photos";
+@import "base", "layout", "site", "work", "blog", "post", "404", "photos", "services";

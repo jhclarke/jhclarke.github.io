@@ -2,11 +2,13 @@
  * Site header
  */
 .site-header {
-  border-bottom: 1px solid $grey-color-light;
-  min-height: 56px;
+  border-bottom: 3px solid $forest-green;
+  min-height: 70px;
+  background-color: $bone;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   @include media-query($on-mobile) {
     padding-top: 0;
@@ -19,17 +21,20 @@
 
 .site-title {
   font-size: 26px;
-  line-height: 56px;
+  line-height: 70px;
   letter-spacing: -1px;
   float: left;
+  display: flex;
+  align-items: center;
 
   img {
     height: 70px;
+    vertical-align: middle;
   }
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $charcoal;
   }
 }
 
@@ -50,12 +55,22 @@
   }
 
   .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
+    color: $charcoal;
+    line-height: 70px;
+    transition: color 0.3s ease;
+    font-size: $base-font-size * 1.2;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
 
     // Gaps between nav items, but not on the first one
     &:not(:first-child) {
-      margin-left: 20px;
+      margin-left: 30px;
+    }
+    
+    &:hover {
+      color: $leather-brown;
+      text-decoration: none;
     }
   }
 
@@ -141,7 +156,7 @@
 }
 
 .follow-links > .social-link {
-  flex: 0 50%;
+  flex: 0 33.33%;
 }
 
 .powered-by {

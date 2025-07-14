@@ -19,11 +19,11 @@ Trinity University San Antonio, TX (08/2013 - 05/2017)
 
 # Professional Experience 
 
-**Postdoctoral Fellow**  
-The University of Texas at Austin, Austin, TX, USA. (01/2025 - 06/2025)
-
 **Co-founder & Chief Scientific Officer**  
 Longhorn Life Sciences Inc., Austin, TX, USA. (2021 - Present)  
+
+**Postdoctoral Fellow**  
+The University of Texas at Austin, Austin, TX, USA. (01/2025 - 06/2025)
 
 **Graduate Research Assistant**  
 The University of Texas at Austin, Advised by José Alvarado, Austin, TX, USA. (2019 - 2024)  
