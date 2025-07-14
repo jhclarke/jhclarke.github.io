@@ -47,11 +47,11 @@ My combination of published research, industry experience in AI and medical devi
 
 Start with a free 20-minute consultation where we discuss your goals and develop a customized learning plan. Regular sessions run 60-90 minutes on a weekly or bi-weekly basis, available virtually or in-person in the Austin area. I am able to provide custom problem sets, track progress through regular assessments, and maintain clear communication with parents for high school students.
 
-## Student Success Stories
+<!-- ## Student Success Stories -->
 
-<div class="testimonial-placeholder">
+<!-- <div class="testimonial-placeholder">
   <p><em>Testimonials from successful students coming soon. Be one of the first to share your success story!</em></p>
-</div>
+</div> -->
 
 ## Ready to Excel in STEM?
 

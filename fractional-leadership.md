@@ -74,11 +74,11 @@ I combine data-driven insights with practical experience to make technical decis
   </div>
 </div>
 
-## Client Success Stories
+<!-- ## Client Success Stories -->
 
-<div class="testimonial-placeholder">
+<!-- <div class="testimonial-placeholder">
   <p><em>Case studies from successful engagements coming soon. Let's create your success story together!</em></p>
-</div>
+</div> -->
 
 ## Ready to Scale Your Technical Leadership?
 

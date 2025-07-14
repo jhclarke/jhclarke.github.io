@@ -43,11 +43,11 @@ I typically begin every engagement with thorough discovery to understand your un
 
 My PhD in physics and engineering experience provides the academic rigor needed for complex technical challenges, while my experience shipping real products ensures practical, implementable solutions. I bridge the gap between technical teams, business leadership, and the voice of the customer - delivering clear outcomes that create lasting value for your organization.
 
-## Success Stories
+<!-- ## Success Stories -->
 
-<div class="testimonial-placeholder">
+<!-- <div class="testimonial-placeholder">
   <p><em>Case studies and testimonials coming soon. Contact me to be one of the first success stories!</em></p>
-</div>
+</div> -->
 
 ## Ready to Accelerate Your Innovation?
 

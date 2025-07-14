@@ -2,6 +2,8 @@
  * Menu
  */
  $("a.menu-icon").on("click", function(event) {
+   event.preventDefault();
+   event.stopPropagation();
    var w = $(".menu");
 
    w.css({
@@ -9,6 +11,20 @@
       ? "block"
       : "none"
    });
+ });
+
+ // Close menu when clicking outside (mobile only)
+ $(document).on("click", function(event) {
+   // Only run on mobile - check if menu icon is visible
+   if ($("a.menu-icon").is(":visible")) {
+     var menu = $(".menu");
+     var siteNav = $(".site-nav");
+     
+     // Check if click is outside the menu area
+     if (!siteNav.is(event.target) && siteNav.has(event.target).length === 0) {
+       menu.css({ display: "none" });
+     }
+   }
  });
 
 /**
