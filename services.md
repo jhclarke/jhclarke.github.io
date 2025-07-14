@@ -5,8 +5,8 @@ slug: /services
 ---
 
 <div class="services-hero">
-  <h1 class="services-title">Transform Your Vision Into Reality</h1>
-  <p class="services-subtitle">Bridging academic excellence with practical business solutions</p>
+  <!-- <h1 class="services-title">Work with me</h1> -->
+  <!-- <p class="services-subtitle">Bridging academic excellence with practical business solutions</p> -->
 </div>
 
 <div class="services-container">
@@ -14,12 +14,7 @@ slug: /services
     <div class="service-icon"></div>
     <h2>Consulting</h2>
     <p class="service-description">Expert guidance in Medical Devices, Wearables, Agentic AI, and Experimental Design. Transform complex technical challenges into actionable solutions.</p>
-    <ul class="service-highlights">
-      <li>Medical Device Development</li>
-      <li>AI Implementation Strategy</li>
-      <li>Experimental Design & Analysis</li>
-      <li>Project Management Excellence</li>
-    </ul>
+    <p class="service-areas">Specializing in medical device development, AI implementation, experimental design, and project management excellence.</p>
     <div class="service-cta">
       <a href="/consulting" class="btn btn-primary">Explore Consulting</a>
     </div>
@@ -29,12 +24,7 @@ slug: /services
     <div class="service-icon"></div>
     <h2>Tutoring</h2>
     <p class="service-description">Personalized instruction in AI, Physics, Math, and Science. Unlock academic potential with tailored learning experiences.</p>
-    <ul class="service-highlights">
-      <li>AP & College Prep</li>
-      <li>Advanced STEM Topics</li>
-      <li>Personalized Learning Plans</li>
-      <li>Real-World Applications</li>
-    </ul>
+    <p class="service-areas">Comprehensive support for AP exams, college prep, advanced STEM topics, and real-world applications.</p>
     <div class="service-cta">
       <a href="/tutoring" class="btn btn-primary">Discover Tutoring</a>
     </div>
@@ -44,12 +34,7 @@ slug: /services
     <div class="service-icon"></div>
     <h2>Fractional Leadership</h2>
     <p class="service-description">Strategic technical leadership for startups and small businesses. Access C-suite expertise without the full-time commitment.</p>
-    <ul class="service-highlights">
-      <li>Chief Scientist Services</li>
-      <li>Technical Advisory</li>
-      <li>Engineering Leadership</li>
-      <li>Innovation Strategy</li>
-    </ul>
+    <p class="service-areas">Offering Chief Scientist services, technical advisory, engineering leadership, and innovation strategy.</p>
     <div class="service-cta">
       <a href="/fractional-leadership" class="btn btn-primary">Learn More</a>
     </div>

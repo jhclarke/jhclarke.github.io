@@ -88,6 +88,14 @@
     font-size: 1.0em;
   }
   
+  .service-areas {
+    font-size: 0.9em;
+    color: lighten($charcoal, 20%);
+    font-style: italic;
+    margin: 10px 0 20px;
+    line-height: 1.4;
+  }
+  
   .service-highlights {
     list-style: none;
     padding: 0;
@@ -201,75 +209,175 @@
 // Individual service pages
 .cta-section {
   text-align: center;
-  margin: 60px 0;
+  margin: 50px -40px;
+  padding: 40px 40px;
+  background: linear-gradient(135deg, lighten($bone, 2%) 0%, $bone 100%);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba($sage, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+  }
   
   .btn {
     margin: 0 10px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
   }
 }
 
 // Testimonial placeholder
 .testimonial-placeholder {
-  background: $bone;
+  background: linear-gradient(135deg, $bone 0%, lighten($bone, 5%) 100%);
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 12px;
   text-align: center;
   margin: 40px 0;
-  border: 1px dashed $sage;
+  border: 2px dashed lighten($sage, 20%);
+  position: relative;
+  overflow: hidden;
+  
+  &:before {
+    content: '"';
+    font-size: 120px;
+    color: rgba($sage, 0.1);
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    font-family: Georgia, serif;
+    line-height: 1;
+  }
   
   em {
     color: lighten($charcoal, 30%);
+    font-size: 1.1em;
+    position: relative;
+    z-index: 1;
   }
 }
 
 // Metrics grid for fractional leadership
 .metrics-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
   margin: 40px 0;
 }
 
 .metric {
-  background: $bone;
-  padding: 25px;
-  border-radius: 8px;
-  border-left: 4px solid $leather-brown;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid darken($bone, 5%);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, $leather-brown 0%, $sage 100%);
+  }
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
   
   h3 {
     color: $leather-brown;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    font-size: 1.3em;
   }
   
   p {
     margin: 0;
-    color: lighten($charcoal, 20%);
+    color: lighten($charcoal, 10%);
+    line-height: 1.6;
   }
 }
 
 // FAQ section
 .faq-section {
-  background: $bone;
+  background: white;
   padding: 40px;
-  border-radius: 8px;
+  border-radius: 16px;
   margin: 40px 0;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+  border: 1px solid darken($bone, 5%);
   
   h2 {
     color: $charcoal;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 3px;
+      background: $sage;
+      border-radius: 2px;
+    }
   }
   
   h3 {
     color: $leather-brown;
-    margin-top: 30px;
+    margin-top: 35px;
+    font-size: 1.3em;
+    position: relative;
+    padding-left: 25px;
     
     &:first-of-type {
-      margin-top: 20px;
+      margin-top: 30px;
+    }
+    
+    &:before {
+      content: '?';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 20px;
+      height: 20px;
+      background: $sage;
+      color: white;
+      border-radius: 50%;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
     }
   }
   
   p {
-    color: $charcoal;
+    color: lighten($charcoal, 10%);
+    line-height: 1.8;
+    padding-left: 25px;
   }
 }
 
@@ -311,5 +419,230 @@
   h3 {
     color: $forest-green;
     margin: 20px 0 10px;
+  }
+}
+
+// Enhanced Individual Service Page Styles
+body.consulting, 
+body.tutoring, 
+body.fractional-leadership {
+  .page-content {
+    h1 {
+      font-size: 3em;
+      margin: 40px 0 20px;
+      position: relative;
+      padding-bottom: 20px;
+      
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 80px;
+        height: 4px;
+        background: linear-gradient(to right, $leather-brown, $sage);
+        border-radius: 2px;
+      }
+      
+      @media (max-width: $on-mobile) {
+        font-size: 2.2em;
+      }
+    }
+    
+    h2 {
+      font-size: 2em;
+      color: $charcoal;
+      margin: 40px 0 20px;
+      position: relative;
+      padding-top: 20px;
+      
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 1px;
+        background: $sage;
+      }
+      
+      // First h2 (tagline) gets special treatment
+      &:first-of-type {
+        font-size: 1.8em;
+        font-weight: 300;
+        color: lighten($charcoal, 20%);
+        text-align: center;
+        margin: 20px auto 40px;
+        max-width: 800px;
+        line-height: 1.5;
+        padding-top: 0;
+        
+        &:before {
+          display: none;
+        }
+      }
+    }
+    
+    h3 {
+      font-size: 1.4em;
+      color: $forest-green;
+      margin: 30px 0 15px;
+      font-weight: 600;
+      position: relative;
+      padding-left: 20px;
+      
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 4px;
+        height: 100%;
+        background: $forest-green;
+        border-radius: 2px;
+      }
+    }
+    
+    // Intro paragraph styling
+    > p:first-of-type {
+      font-size: 1.15em;
+      line-height: 1.8;
+      color: lighten($charcoal, 10%);
+      max-width: 900px;
+      margin: 0 auto 40px;
+      text-align: center;
+      padding: 0 20px;
+    }
+    
+    // Regular paragraphs
+    p {
+      line-height: 1.7;
+      margin-bottom: 15px;
+      color: $charcoal;
+    }
+    
+    // Lists with better styling
+    ul, ol {
+      margin: 20px 0 30px;
+      padding-left: 0;
+      
+      li {
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 12px;
+        line-height: 1.7;
+        
+        &:before {
+          content: '▸';
+          position: absolute;
+          left: 0;
+          color: $forest-green;
+          font-weight: bold;
+          font-size: 1.2em;
+        }
+      }
+    }
+    
+    // Section cards for better visual separation (removed to reduce visual clutter)
+    // Keeping the simple left border for h3 elements is enough visual separation
+    
+    // Numbered lists get special treatment
+    ol {
+      counter-reset: item;
+      
+      li {
+        counter-increment: item;
+        
+        &:before {
+          content: counter(item);
+          background: $sage;
+          color: white;
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          left: 0;
+          font-size: 0.9em;
+          font-weight: 600;
+        }
+        
+        strong {
+          color: $leather-brown;
+        }
+      }
+    }
+  }
+}
+
+// Service page specific enhancements
+.service-highlight-box {
+  background: linear-gradient(135deg, lighten($bone, 5%), $bone);
+  border: 1px solid darken($bone, 10%);
+  border-radius: 12px;
+  padding: 30px;
+  margin: 40px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  
+  h3 {
+    margin-top: 0;
+  }
+}
+
+// Hover effects for interactive elements
+.page-content {
+  a:not(.btn) {
+    color: $forest-green;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: $forest-green;
+      transition: width 0.3s ease;
+    }
+    
+    &:hover {
+      color: darken($forest-green, 10%);
+      
+      &:after {
+        width: 100%;
+      }
+    }
+  }
+}
+
+// Add subtle animations
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Apply animations to sections
+.page-content > * {
+  animation: fadeInUp 0.6s ease-out;
+  animation-fill-mode: both;
+}
+
+// Stagger the animations
+@for $i from 1 through 20 {
+  .page-content > *:nth-child(#{$i}) {
+    animation-delay: #{$i * 0.03}s;
   }
 }

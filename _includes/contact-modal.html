@@ -259,14 +259,22 @@ document.addEventListener('DOMContentLoaded', function() {
       })
       .then(response => {
         if (response.ok) {
-          // Success
-          status.textContent = 'Thank you! Your message has been sent. I\'ll respond within 24-48 hours.';
-          status.className = 'form-status success';
-          status.style.display = 'block';
-          form.reset();
-          
-          // Track in GA4 if available
-          if (typeof gtag !== 'undefined') {
+          return response.json();
+        } else {
+          return response.text().then(text => {
+            throw new Error(`Form submission failed: ${response.status} - ${text}`);
+          });
+        }
+      })
+      .then(data => {
+        // Success
+        status.textContent = 'Thank you! Your message has been sent. I\'ll respond within 24-48 hours.';
+        status.className = 'form-status success';
+        status.style.display = 'block';
+        form.reset();
+        
+        // Track in GA4 if available
+        if (typeof gtag !== 'undefined') {
             gtag('event', 'form_submit', {
               'event_category': 'conversion',
               'event_label': 'contact_form',
@@ -281,13 +289,10 @@ document.addEventListener('DOMContentLoaded', function() {
               'service': form.service.value
             });
           }
-        } else {
-          // Error
-          throw new Error('Form submission failed');
-        }
       })
       .catch(error => {
-        status.textContent = 'Oops! There was a problem sending your message. Please try again or email me directly.';
+        console.error('Form submission error:', error);
+        status.innerHTML = 'Oops! There was a problem sending your message. Please try again or <a href="mailto:em@jhclarke.com" style="color: #2C4B3F;">email me directly</a>.';
         status.className = 'form-status error';
         status.style.display = 'block';
       })

@@ -13,108 +13,49 @@ Access experienced technical leadership without the overhead of a full-time exec
 ## Leadership Roles
 
 ### Fractional Chief Scientist
-Guide your company's scientific strategy and innovation:
-- Research direction and experimental design
-- Scientific validation and peer review management
-- Grant writing and funding strategy
-- Board and investor technical communications
-- IP strategy and patent guidance
+Guide your company's scientific strategy through research direction, experimental design, and validation processes. I manage peer review, develop grant strategies, communicate technical vision to boards and investors, and provide IP and patent guidance to protect your innovations.
 
 ### Technical Advisor
-Strategic guidance for critical technical decisions:
-- Technology stack selection and architecture
-- AI/ML strategy and implementation roadmap
-- Technical due diligence for fundraising
-- Vendor evaluation and partnership assessment
-- Risk analysis and mitigation planning
+Provide strategic guidance for critical technical decisions including technology stack selection, AI/ML implementation roadmaps, and technical due diligence for fundraising. I evaluate vendors and partnerships while developing comprehensive risk mitigation strategies.
 
 ### Fractional Head of Engineering
-Build and lead high-performing technical teams:
-- Engineering culture and process establishment
-- Hiring strategy and technical interviews
-- Development methodology implementation
-- Technical debt management
-- Product-engineering alignment
+Build high-performing technical teams by establishing engineering culture, implementing proven development methodologies, and aligning product and engineering efforts. I design hiring strategies, and conduct technical interviews. 
 
 ## Who Benefits from Fractional Leadership
 
 ### Pre-Seed to Series A Startups
-- **Technical Validation**: Prove your concept to investors
-- **Strategic Planning**: Build realistic technical roadmaps
-- **Team Building**: Hire the right talent at the right time
-- **Investor Relations**: Communicate technical vision clearly
+Validate your technology for investors, build realistic technical roadmaps, and hire the right talent at the right time. I help communicate your technical vision clearly to stakeholders while establishing the foundation for sustainable growth.
 
 ### Small & Local Businesses
-- **Digital Transformation**: Implement modern technology solutions
-- **AI Integration**: Deploy practical AI tools for efficiency
-- **Process Optimization**: Streamline technical operations
-- **Competitive Advantage**: Leverage technology strategically
+Navigate digital transformation with modern technology solutions and practical AI integration. I streamline technical operations and help you leverage technology as a strategic competitive advantage.
 
 ### Growing Companies
-- **Scaling Challenges**: Navigate technical growing pains
-- **Leadership Gaps**: Fill expertise voids temporarily
-- **Special Projects**: Lead critical initiatives
-- **Succession Planning**: Mentor internal talent
+Address scaling challenges and fill temporary leadership gaps while leading critical initiatives. I mentor internal talent for succession planning, ensuring your organization builds lasting technical capabilities.
 
 ## The Fractional Advantage
 
 ### Cost-Effective Expertise
-- Access senior leadership at a fraction of full-time cost
-- Scale engagement up or down based on needs
-- No long-term employment commitments
-- Immediate impact without onboarding delays
+Access senior leadership at a fraction of full-time cost with flexible scaling based on your needs. No long-term commitments required, and I deliver immediate impact without lengthy onboarding.
 
 ### Objective Perspective
-- Unbiased technical assessments
-- Fresh eyes on persistent challenges
-- Cross-industry best practices
-- No internal politics or legacy bias
+Benefit from unbiased technical assessments and fresh perspectives on persistent challenges. I bring cross-industry best practices without the constraints of internal politics or legacy thinking.
 
 ### Flexible Engagement Models
-- **Advisory**: 5-10 hours/month for strategic guidance
-- **Part-Time**: 2-3 days/week for hands-on leadership
-- **Project-Based**: Defined scope and timeline
-- **On-Demand**: As-needed consultation
+Choose from advisory (5-10 hours/month), part-time (2-3 days/week), project-based, or on-demand consultation to match your specific needs and budget.
 
 ## My Leadership Approach
 
-### Evidence-Based Decision Making
-Combine data, experience, and intuition to make sound technical decisions that align with business objectives.
-
-### Collaborative Leadership
-Build consensus while maintaining technical excellence. Foster environments where innovation thrives.
-
-### Practical Innovation
-Balance cutting-edge technology with pragmatic implementation. Ship products, not just prototypes.
-
-### Knowledge Transfer
-Develop internal capabilities while providing leadership. Leave organizations stronger than I found them.
+I combine data-driven insights with practical experience to make technical decisions aligned with business objectives. Through collaborative leadership that maintains technical excellence, I balance cutting-edge innovation with pragmatic implementation. My focus on knowledge transfer ensures your organization gains lasting capabilities.
 
 ## Areas of Impact
 
-### Product Development
-- Technical architecture and system design
-- MVP definition and iteration strategy
-- Quality assurance and testing frameworks
-- Performance optimization and scaling
+**Product Development**: Design technical architecture, define MVPs, implement quality frameworks, and optimize performance for scale.
 
-### Data & Analytics
-- Data strategy and governance
-- Analytics infrastructure development
-- Machine learning implementation
-- Insights democratization
+**Data & Analytics**: Develop data strategies, build analytics infrastructure, implement machine learning, and democratize insights across your organization.
 
-### Technical Operations
-- Security and compliance frameworks
-- DevOps and infrastructure automation
-- Monitoring and observability
-- Disaster recovery planning
+**Technical Operations**: Establish security frameworks, automate infrastructure, implement monitoring systems, and ensure business continuity.
 
-### Team Development
-- Technical skill assessment and growth
-- Mentorship and career development
-- Cross-functional collaboration
-- Innovation culture building
+**Team Development**: Assess and grow technical skills, provide mentorship, foster cross-functional collaboration, and build innovation-driven cultures.
 
 ## Success Metrics
 
@@ -126,10 +67,6 @@ Develop internal capabilities while providing leadership. Leave organizations st
   <div class="metric">
     <h3>Team Performance</h3>
     <p>Improve engineering productivity and satisfaction through better tools, processes, and leadership</p>
-  </div>
-  <div class="metric">
-    <h3>Technical Debt</h3>
-    <p>Reduce technical debt while maintaining feature velocity through strategic refactoring</p>
   </div>
   <div class="metric">
     <h3>Innovation ROI</h3>

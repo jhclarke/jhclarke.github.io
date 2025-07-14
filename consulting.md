@@ -8,85 +8,40 @@ slug: /consulting
 
 ## Transform Complex Challenges Into Breakthrough Solutions
 
-With deep expertise spanning medical devices, wearables, AI systems, and experimental design, I help businesses navigate the intersection of cutting-edge technology and practical implementation. My academic foundation combined with real-world experience delivers solutions that are both innovative and executable.
+With deep expertise spanning medical devices, wearables, Agentic AI, experimental design, and scientific acumen, I help businesses navigate the intersection of cutting-edge technology and practical implementation. My academic foundation combined with real-world experience delivers solutions that are both innovative and executable.
 
 ## Core Consulting Areas
 
 ### Medical Device Development
-From concept to FDA submission, I guide companies through the complex landscape of medical device development:
-- Regulatory strategy and compliance planning
-- Clinical trial design and data analysis
-- Wearable sensor integration and validation
-- Risk management and quality systems
+I provide guidance to companies through the complete medical device lifecycle from concept, to prototype, to MVP, to FDA submission. I have experience in regulatory strategy, clinical trial design, wearable sensor integration, and quality systems implementation to ensure your device meets all compliance requirements.
 
 ### Agentic AI Implementation
-Harness the power of autonomous AI systems for your business:
-- AI strategy development and roadmapping
-- Custom LLM implementation and fine-tuning
-- Autonomous agent design and deployment
-- Ethical AI frameworks and governance
+Harness the power of autonomous AI systems with strategic implementation that aligns with your business goals. I provide end-to-end support from AI strategy development and custom LLM implementation to autonomous agent deployment.
 
 ### Experimental Design & Analysis
-Turn data into decisions with rigorous scientific methodology:
-- Study design for maximum statistical power
-- Advanced data analysis and interpretation
-- Predictive modeling and machine learning
-- Results visualization and reporting
+Transform your data into actionable insights using rigorous scientific methodology. I design studies for maximum statistical power, guide experimental progress, construct data analysis pipelines, build predictive models, and create clear visualizations that ensure data informed decision-making.
 
 ### Project Management Excellence
-Keep complex technical projects on track and on budget:
-- Agile and hybrid methodology implementation
-- Cross-functional team coordination
-- Risk assessment and mitigation strategies
-- Stakeholder communication frameworks
+Keep complex technical projects on track with proven methodologies. I help coordinate cross-functional teams, develop risk mitigation strategies, and establish clear stakeholder communication to ensure project success.
 
 ## Who I Work With
 
 ### Entrepreneurs & Startups
-- Pre-seed to Series A companies needing technical validation
-- Founders seeking to build AI-powered products
-- Teams navigating regulatory requirements
+I partner with pre-seed to Series A companies that need technical validation for their innovations. Whether you're building AI-powered products or navigating complex regulatory requirements, I am able to meet you where you're at in your startup journey and provide the expertise to accelerate your path to market.
 
 ### Small Business Leaders
-- Companies looking to implement AI solutions
-- Businesses seeking competitive advantages through technology
-- Organizations needing fractional technical expertise
+I help established businesses leverage technology for competitive advantage. From implementing AI solutions to providing fractional technical expertise, I enable organizations to access enterprise-level capabilities without the enterprise cost.
 
 ### Industry Professionals
-- R&D teams requiring specialized expertise
-- Product managers building technical products
-- Engineering leaders seeking strategic guidance
+I collaborate with R&D teams, product managers, and engineering leaders who need specialized expertise for critical projects. My strategic guidance helps technical teams overcome complex challenges and deliver exceptional results.
 
 ## My Approach
 
-### 1. Discovery & Assessment
-Every engagement begins with deep listening and thorough analysis to understand your unique challenges and opportunities.
-
-### 2. Strategic Planning
-Together, we develop a clear roadmap with measurable milestones and realistic timelines.
-
-### 3. Hands-On Implementation
-I work alongside your team, providing both strategic guidance and tactical support.
-
-### 4. Knowledge Transfer
-Your team gains the skills and understanding to maintain momentum after our engagement.
+I typically begin every engagement with thorough discovery to understand your unique challenges. We then work together to develop a strategic roadmap with clear milestones, and I work hands-on alongside your team to ensure successful implementation. Throughout our engagement, I prioritize knowledge transfer so your team can maintain momentum independently.
 
 ## Why Work With Me
 
-### Academic Rigor Meets Business Pragmatism
-- PhD-level expertise in physics and engineering
-- Published research in peer-reviewed journals
-- Real-world experience shipping products
-
-### Cross-Functional Excellence
-- Fluent in technical, business, and regulatory languages
-- Bridge between engineering and executive teams
-- Proven track record of successful implementations
-
-### Results-Driven Focus
-- Clear deliverables and measurable outcomes
-- Pragmatic solutions that work in the real world
-- Long-term value creation, not just quick fixes
+My PhD in physics and engineering experience provides the academic rigor needed for complex technical challenges, while my experience shipping real products ensures practical, implementable solutions. I bridge the gap between technical teams, business leadership, and the voice of the customer - delivering clear outcomes that create lasting value for your organization.
 
 ## Success Stories
 

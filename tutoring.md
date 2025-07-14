@@ -6,108 +6,46 @@ slug: /tutoring
 
 # STEM Tutoring Services
 
-## Unlock Your Academic Potential with Expert Guidance
+## Unlock Your Academic Potential
 
-Transform challenging STEM subjects into opportunities for growth and discovery. With a PhD in physics and years of teaching experience, I provide personalized tutoring that goes beyond memorization to build deep understanding and lasting confidence.
+Transform challenging STEM subjects into opportunities for growth and discovery. With a PhD in physics, years of teaching experience, and proven success with direct mentorship, I provide personalized tutoring that goes beyond memorization to build deep understanding and lasting confidence.
 
 ## Subject Expertise
 
 ### Artificial Intelligence & Machine Learning
-Master the technologies shaping our future:
-- Neural networks and deep learning fundamentals
-- Natural language processing and computer vision
-- Practical implementation with Python and TensorFlow
-- Ethical AI and societal implications
+Master the technologies shaping our future through comprehensive instruction in utilizing state of the art AI tooling - neural networks, deep learning, natural language processing, computer vision, and agents. I leave students with strong fundamentals and an advanced toolkit for practical implementation.
 
 ### Physics
-From classical mechanics to quantum phenomena:
-- AP Physics preparation (all levels)
-- College-level physics courses
-- Problem-solving strategies and intuition building
-- Real-world applications and demonstrations
+Excel in physics - classical mechanics, electromagnetism, optics, quantum mechanics, statistical mechanics, biophysics, you name it. I provide expert preparation for all AP Physics levels and college courses, focusing on building problem-solving intuition and connecting concepts to real-world applications.
 
 ### Mathematics
-Build a rock-solid foundation for STEM success:
-- Calculus (single and multivariable)
-- Linear algebra and differential equations
-- Statistics and probability
-- Mathematical modeling and optimization
+Build a rock-solid foundation with comprehensive coverage of calculus, linear algebra, differential equations, statistics, and probability. I emphasize mathematical modeling and optimization techniques that apply across all STEM fields.
 
 ### General Sciences
-Comprehensive support across scientific disciplines:
-- Chemistry fundamentals and applications
-- Biology for physics students
-- Interdisciplinary STEM topics
-- Research methodology and scientific writing
+Receive comprehensive support across scientific disciplines including chemistry, biology, and interdisciplinary STEM topics. I also guide students in research methodology and scientific writing to prepare for advanced academic work.
 
 ## Who I Help Succeed
 
 ### High School Students
-- **AP Exam Preparation**: Achieve top scores with targeted practice
-- **College Readiness**: Build skills for university-level coursework
-- **Science Fair Projects**: Develop winning research proposals
-- **Academic Excellence**: Transform B students into A students
+I help students achieve top AP exam scores, build college readiness skills, develop winning science fair projects, and transform academic performance. My approach encourages students to prefer building deeper understanding rather than rote memorization.
 
 ### College Students
-- **Course Support**: Master challenging undergraduate topics
-- **Research Guidance**: Design and execute meaningful projects
-- **Graduate School Prep**: Build competitive applications
-- **Career Planning**: Navigate STEM career pathways
+Navigate challenging undergraduate courses with expert support while developing research skills for meaningful projects. I guide students in building competitive graduate school applications and planning successful STEM career pathways. I help them make strategic connections to move their careers in the direction they desire.
 
 ### Lifelong Learners
-- **Professional Development**: Upskill in AI and data science
-- **Career Transitions**: Move into technical fields
-- **Personal Interest**: Explore fascinating scientific concepts
-- **Parent Support**: Help your children with homework
+Whether you're upskilling in AI and data science, transitioning to a technical career, exploring scientific concepts for personal interest, or seeking to better support your children's education, I provide tailored instruction that meets your specific goals.
 
 ## My Teaching Philosophy
 
-### Conceptual Understanding First
-I believe in building intuition before equations. When you truly understand the "why," the "how" becomes natural.
-
-### Active Learning
-We solve problems together, discuss concepts deeply, and connect ideas to real-world applications.
-
-### Personalized Approach
-Every student learns differently. I adapt my teaching style to match your learning preferences and goals.
-
-### Growth Mindset
-Mistakes are learning opportunities. I create a supportive environment where questions are celebrated.
+I prioritize building conceptual understanding before equations - when you grasp the "why," the "how" follows naturally. Through active problem-solving and real-world connections, I adapt my approach to each student's learning style. Mistakes become opportunities in a supportive environment where curiosity drives learning.
 
 ## What Makes My Tutoring Different
 
-### Real-World Experience
-- Published researcher with peer-reviewed papers
-- Industry experience in AI and medical devices
-- Practical applications for every concept
-
-### Proven Results
-- Students consistently improve by 1-2 letter grades
-- High AP exam pass rates (4s and 5s)
-- Successful college admissions to top programs
-
-### Holistic Support
-- Study skills and time management coaching
-- Test-taking strategies and anxiety reduction
-- Long-term academic planning
+My combination of published research, industry experience in AI and medical devices, and teaching expertise brings practical relevance to every concept. Students can expect to consistently improve by 1-2 letter grades, achieve high AP scores, and gain admission to top programs. Beyond subject mastery, I provide holistic support including study skills, test strategies, long-term academic planning, and personal growth. I put a lot of time and energy into making sure that the people I work with succeed.
 
 ## Session Structure
 
-### Initial Assessment (Free)
-- 20-minute consultation to understand your goals
-- Skill level evaluation and learning style assessment
-- Customized learning plan development
-
-### Regular Sessions
-- **Duration**: 60 or 90-minute sessions
-- **Frequency**: Weekly or bi-weekly
-- **Format**: Virtual or in-person (Portland area)
-- **Materials**: Custom problem sets and resources
-
-### Progress Tracking
-- Regular assessments to measure improvement
-- Detailed feedback after each session
-- Communication with parents (for high school students)
+Start with a free 20-minute consultation where we discuss your goals and develop a customized learning plan. Regular sessions run 60-90 minutes on a weekly or bi-weekly basis, available virtually or in-person in the Austin area. I am able to provide custom problem sets, track progress through regular assessments, and maintain clear communication with parents for high school students.
 
 ## Student Success Stories
 
@@ -128,7 +66,7 @@ Whether you're preparing for an important exam, struggling with a challenging co
   <h2>Frequently Asked Questions</h2>
   
   <h3>What's your availability?</h3>
-  <p>I offer flexible scheduling including evenings and weekends to accommodate busy students.</p>
+  <p>I offer flexible scheduling including evenings and (on special occasions) weekends to accommodate busy students.</p>
   
   <h3>Do you offer group sessions?</h3>
   <p>Yes! Small group sessions (2-4 students) are available at reduced rates for students at similar levels.</p>
@@ -143,7 +81,7 @@ Whether you're preparing for an important exam, struggling with a challenging co
 
 <!-- SEO Meta Tags -->
 <meta name="description" content="Expert STEM tutoring in AI, Physics, Math, and Science. Personalized instruction for high school AP prep, college courses, and professional development. PhD educator with proven results.">
-<meta name="keywords" content="STEM tutoring, physics tutor, math tutor, AI tutoring, AP physics prep, college tutoring, science tutor, online tutoring, Portland tutor">
+<meta name="keywords" content="STEM tutoring, physics tutor, math tutor, AI tutoring, AP physics prep, college tutoring, science tutor, online tutoring, Austin tutor">
 <meta property="og:title" content="STEM Tutoring Services | James Clarke">
 <meta property="og:description" content="Transform challenging STEM subjects into opportunities for growth. Expert tutoring in AI, Physics, Math, and Science.">
 <meta property="og:type" content="website">

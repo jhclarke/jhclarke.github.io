@@ -1,0 +1,68 @@
+I"�<h1 id="technical-consulting-services">Technical Consulting Services</h1>
+
+<h2 id="transform-complex-challenges-into-breakthrough-solutions">Transform Complex Challenges Into Breakthrough Solutions</h2>
+
+<p>With deep expertise spanning medical devices, wearables, Agentic AI, experimental design, and scientific acumen, I help businesses navigate the intersection of cutting-edge technology and practical implementation. My academic foundation combined with real-world experience delivers solutions that are both innovative and executable.</p>
+
+<h2 id="core-consulting-areas">Core Consulting Areas</h2>
+
+<h3 id="medical-device-development">Medical Device Development</h3>
+<p>I provide guidance to companies through the complete medical device lifecycle from concept, to prototype, to MVP, to FDA submission. I have experience in regulatory strategy, clinical trial design, wearable sensor integration, and quality systems implementation to ensure your device meets all compliance requirements.</p>
+
+<h3 id="agentic-ai-implementation">Agentic AI Implementation</h3>
+<p>Harness the power of autonomous AI systems with strategic implementation that aligns with your business goals. I provide end-to-end support from AI strategy development and custom LLM implementation to autonomous agent deployment.</p>
+
+<h3 id="experimental-design--analysis">Experimental Design &amp; Analysis</h3>
+<p>Transform your data into actionable insights using rigorous scientific methodology. I design studies for maximum statistical power, guide experimental progress, construct data analysis pipelines, build predictive models, and create clear visualizations that ensure data informed decision-making.</p>
+
+<h3 id="project-management-excellence">Project Management Excellence</h3>
+<p>Keep complex technical projects on track with proven methodologies. I help coordinate cross-functional teams, develop risk mitigation strategies, and establish clear stakeholder communication to ensure project success.</p>
+
+<h2 id="who-i-work-with">Who I Work With</h2>
+
+<h3 id="entrepreneurs--startups">Entrepreneurs &amp; Startups</h3>
+<p>I partner with pre-seed to Series A companies that need technical validation for their innovations. Whether you’re building AI-powered products or navigating complex regulatory requirements, I provide the expertise to accelerate your path to market.</p>
+
+<h3 id="small-business-leaders">Small Business Leaders</h3>
+<p>I help established businesses leverage technology for competitive advantage. From implementing AI solutions to providing fractional technical expertise, I enable organizations to access enterprise-level capabilities without the enterprise cost.</p>
+
+<h3 id="industry-professionals">Industry Professionals</h3>
+<p>I collaborate with R&amp;D teams, product managers, and engineering leaders who need specialized expertise for critical projects. My strategic guidance helps technical teams overcome complex challenges and deliver exceptional results.</p>
+
+<h2 id="my-approach">My Approach</h2>
+
+<p>I begin every engagement with thorough discovery to understand your unique challenges. We then develop a strategic roadmap with clear milestones, and I work hands-on alongside your team to ensure successful implementation. Throughout our engagement, I prioritize knowledge transfer so your team can maintain momentum independently.</p>
+
+<h2 id="why-work-with-me">Why Work With Me</h2>
+
+<p>My PhD in physics and engineering experience provides the academic rigor needed for complex technical challenges, while my experience shipping real products ensures practical, implementable solutions. I bridge the gap between technical teams, business leadership, and the voice of the customer - delivering clear outcomes that create lasting value for your organization.</p>
+
+<h2 id="success-stories">Success Stories</h2>
+
+<div class="testimonial-placeholder">
+  <p><em>Case studies and testimonials coming soon. Contact me to be one of the first success stories!</em></p>
+</div>
+
+<h2 id="ready-to-accelerate-your-innovation">Ready to Accelerate Your Innovation?</h2>
+
+<p>Let’s discuss how technical consulting can transform your challenges into competitive advantages.</p>
+
+<div class="cta-section">
+  <button class="btn btn-secondary" onclick="openContactModal()">Send a Message</button>
+  <button class="btn btn-schedule" data-cal-link="jhclarke/consultation" data-cal-namespace="consultation" data-cal-config="{&quot;layout&quot;:&quot;month_view&quot;}">Schedule a Free Consultation</button>
+</div>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Expert technical consulting in medical devices, wearables, AI implementation, and experimental design. Transform complex challenges into breakthrough solutions with PhD-level expertise." />
+
+<meta name="keywords" content="technical consulting, medical device consulting, AI implementation, experimental design, wearables consulting, project management, startup advisor" />
+
+<meta property="og:title" content="Technical Consulting Services | James Clarke" />
+
+<meta property="og:description" content="Expert guidance in medical devices, AI systems, and experimental design. Academic rigor meets business pragmatism." />
+
+<meta property="og:type" content="website" />
+
+<meta property="og:url" content="https://www.jhclarke.com/consulting" />
+
+:ET
